@@ -4,6 +4,10 @@ This repository holds the analysis code, the derived input files and the result 
 the manuscript *Polycystic ovary syndrome and age at natural menopause: effects not yet
 separable*, which is under double-anonymous peer review at *Endocrine Connections*.
 
+This repository is the one cited in the manuscript's data availability statement, at
+
+<https://github.com/mr-repro333/pcos-anm-shared-genetic-architecture>
+
 It is published so that every number in the manuscript can be re-derived by someone who has
 only this repository. Because the review is double-anonymous, the repository carries no
 author names, affiliations or contact details; the note records what was withheld for that
@@ -13,8 +17,8 @@ reason, with the SHA-256 hashes of the withheld files.
 
 | item | description |
 |---|---|
-| `PCOS_ANM_V3_2_ANALYSIS_PACKAGE.zip` | the complete analysis package: 1,354 entries, 13.4 MiB (14,023,703 bytes) |
-| `analysis_code/` | the 29 code and tooling files, extracted so they can be read without downloading the archive; byte-identical to `04_CODE/` inside it |
+| `PCOS_ANM_V3_2_ANALYSIS_PACKAGE.zip` | the complete analysis package: 1,354 entries, 13.4 MiB (14,023,766 bytes) |
+| `analysis_code.zip` | the 29 code and tooling files on their own, for readers who want the code without the rest of the package; the same files sit inside the package archive at `04_CODE/` |
 | `PUBLIC_EDITION_NOTE.md` | a copy of the note inside the archive, recording exactly what this edition changes relative to the master audit package |
 | `LICENSE` | MIT |
 
@@ -23,7 +27,7 @@ reason, with the SHA-256 hashes of the withheld files.
 ```
 sha256sum PCOS_ANM_V3_2_ANALYSIS_PACKAGE.zip
 # expected:
-# 4e30fb46e08dd472629d3a9515392b41cb76e235ccfb2d47186879851fe8c277
+# f97e602b1bd9a87cf406b2c87174e64f3c5a1e454de15eecff8a2297eb814041
 ```
 
 `SHA256SUMS.txt` and `MANIFEST.tsv` inside the archive are identical files. Between them they
